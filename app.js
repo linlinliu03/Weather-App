@@ -1,5 +1,5 @@
 const request = require("request");
-const geocode = require("./geocode");
+const geocode = require("./utils/geocode");
 
 // const url = "http://api.weatherstack.com/current?access_key=747ab087e2746709e77999472c1c284c&query=New%20York&units=f";
 
