@@ -10,4 +10,4 @@ app.get("/weather", (req,res) => {
     res.send("Weather page!")
 });
 
-app.listen(3000, () => console.log("Server is running!"))
+app.listen(3000, () => console.log("Server is running!"));
