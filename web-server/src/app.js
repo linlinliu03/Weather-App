@@ -22,6 +22,13 @@ app.get("/about", (req,res) => {
     })
 })
 
+app.get("/help", (req,res) => {
+    res.render("help", {
+        title: "Help Page",
+        helpText: "This is some helpful text!"
+    })
+})
+
 app.get("/weather", (req,res) => {
     res.send("Weather page!")
 });
